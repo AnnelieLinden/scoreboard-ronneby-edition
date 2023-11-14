@@ -1,0 +1,81 @@
+body {
+  background-color: #404067;
+  color: #cdd6f4;
+  font-size: 32px;
+}
+
+button {
+  background-color: #313244;
+  color: snow;
+  padding: 2vh 2vw;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+#scoreArea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#scoreArea > p {
+  min-width: 20%;
+  text-align: center;
+  border: 2px solid rgb(117, 176, 201);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#btnSection {
+  background-color: #7dd8d8;
+  padding: 2vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.playerName {
+ color: #313244;
+}
+
+.playerName {
+  border-bottom: 1px solid #11111b;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 5px 10px;
+  background-color: #89dceb;
+}
+
+.playerScore {
+  color: snow;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 5px 10px;
+  background-color: #11111b;
+}
+
+.btnBox {
+  display: flex;
+  gap: 1vw;
+}
+
+.won {
+  color: #60c657;
+}
+
+.lost {
+  color: #d71e1e;
+}
+a {
+  text-decoration: none;
+  background-color: #313244;
+  color: snow;
+  padding: 2vh 2vw;
+  font-size: 32px;
+  border-radius: 10px;
+  margin-left: 20vw;
+  margin-top:5vh;
+}
